@@ -1,0 +1,34 @@
+{
+  "name" : "APEX Media Extension (AME)",
+  "version" : "20.1.2",
+  "description" : "APEX Media Extension (AME) is a multimedia (images, video, audio) engine for Oracle Application Express (APEX) and the Oracle Database. It's a replacement for Oracle Intermedia/Multimedia.",
+  "keywords" : ["export", "grayscale", "resize", "images", "crop", "watermark", "overlay", "convert", "video", "audio"],
+  "homepage" : "https://www.apexmediaextension.com/",
+  "bugs" : {
+    "url" : "https://github.com/APEXOfficePrint/ame-apex-plugin/issues",
+    "email" : "support@apexmediaextension.com"
+  },
+  "license" : "Commercial",
+  "commercial" : "Yes",
+  "author" : {
+    "name" : "APEX R&D",
+    "email" : "support@apexmediaextension.com",
+    "url" : "https://www.apexmediaextension.com/"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/APEXOfficePrint/ame-apex-plugin"
+  },
+ "oracle" : {
+    "versions" : ["11.2.0.1", "12.1.0.1", "12.2.0.1", "18.x", "19.x"],
+    "apex" : {
+      "versions" : ["18.1.0", "18.2.0", "19.1.0", "19.2.0", "20.1.0"],
+      "plugin" : {
+        "internalName" : "BE.APEXRND.AME_DA",
+        "type" : "dynamic action",
+        "demo" : "https://www.apexmediaextension.com/ords/f?p=AME_SAMPLE_APP_WEB:LOGIN_DESKTOP:0",
+        "previewImage" : "https://raw.githubusercontent.com/APEXOfficePrint/ame-apex-plugin/master/ame_sample_app_examples.png"
+      }
+    }
+  }
+}
